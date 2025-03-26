@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Elements</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+        }
+        figcaption {
+            text-align: center;
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        main {
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        article {
+            padding: 20px;
+            background-color: #e9ecef;
+            margin: 20px 0;
+        }
+        aside {
+            padding: 20px;
+            background-color: #f1f1f1;
+            border-left: 4px solid #4CAF50;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header> <h1>W3 Schools</h1></header>
+    <img src="c:\Users\nagas\Downloads\W3Schools_com.jpeg" width="300" height="200" alt="W3Schools Logo">
+    <figcaption>W3 School Logo</figcaption>
+    
+    <main> 
+        <h3><i>Main</i></h3>
+        <p>W3Schools stands as one of the world’s leading platforms for 
+            learning web development and coding, offering an extensive library filled with
+            a wide array of instructional guides, exercises, code examples, references, and other learning tools.
+        </p>
+    </main>
+    <article> 
+        <h3><i>Article</i></h3>
+        <p>W3Schools’ resources can easily be used by teachers as a supplement to an existing curriculum.
+         The learning materials, or its tutorials, practice exercises, quizzes, and interactive “Try-It-Yourself” 
+         code example sections, and HTML video tutorials can also be used as a self-paced learning curriculum with 
+         detailed direct learning content for progress tracking. It offers the web hosting solution, “Spaces”,
+         for practicing web development and coding, along with the opportunity to share your projects that have
+         been done. Integration with GitHub for version control and assignment submission is also a potential use. 
+         The platform’s materials can be used by students independently or displayed in the classroom as part of 
+         a presentation, making it a versatile tool for different learning styles and requirements.
+        </p>
+    </article>
+    <aside> 
+        <h3><i>Aside</i></h3>
+       <p>Provides information about the source content.
+        It is used to describe the primary object of the 
+        web page more concisely.
+        </p>
+    </aside>
+    <footer> 
+        <p>Contact: W3 School</p>
+        <a href="https://www.w3schools.com/">Link</a>
+    </footer>
+</body>
+</html>
+
