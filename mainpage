@@ -1,0 +1,34 @@
+<body>
+
+  <div class="form-container">
+    <h2>Outpass Application</h2>
+    <form action="#" method="post"> <!-- Change action to backend file later -->
+
+      <label for="name">Student Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="rollno">Roll Number</label>
+      <input type="text" id="rollno" name="rollno" required>
+
+      <label for="department">Department</label>
+      <input type="text" id="department" name="department" required>
+
+      <label for="date">Date of Outpass</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="time-out">Time Out</label>
+      <input type="time" id="timeout" name="timeout" required>
+
+      <label for="time-in">Expected Time In</label>
+      <input type="time" id="timein" name="timein" required>
+
+      <label for="reason">Reason for Outpass</label>
+      <textarea id="reason" name="reason" rows="4" required></textarea>
+
+      <button type="submit">Submit Outpass Request</button>
+    </form>
+  </div>
+
+</body>
+</html>
+
